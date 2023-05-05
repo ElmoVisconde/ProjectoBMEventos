@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BM - Eventos Online - Adequerir</title>
+	<!--Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!--Configurações Customizadas-->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+	<header>
+		<div class="container bg-pink pt-3 pb-1">
+			<nav class="navbar sticky-top navbar-expand-sm navbar-light bg-pink">
+				<!--Inicio do Logotipo-->
+				<a href="index.html" class="navbar-brand barra">
+					<span class="text-white">BM-Eventos </span><span class="text-dark">Online</span>
+				</a><!--Fim do Logotipo-->
+
+				<!--Inicio da barra de navegação-->
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="servico.html" class="nav-link">Serviços</a>
+					</li>
+					<li class="nav-item">
+						<a href="sobre.html" class="nav-link">Sobre Nós</a>
+					</li>
+					<li class="nav-item">
+						<a href="contacto.html" class="nav-link">Contactos</a>
+					</li>
+				</ul><!--Fim da barra de navegação-->
+			</nav>
+		</div>	
+	</header>
+
+	<section class="mt-3">
+		<div class="container">
+			<h5 class="bg-pink pt-1 pb-1 text-center font-weight-bold">Adesão de Serviço
+			</h5>
+			<div class="card mb-1">
+				<img src="img/BMlogo.png" class="card-img align-self-center">	
+			</div>			
+			<div class="row">
+				<!--Inicio da Área do Cliente-->
+				<div class="col-sm-6">
+					<h5 class="bg-pink pt-1 pb-1 text-center font-weight-bold">Dados do Cliente</h5>
+					<div class="form-group">
+						<form>
+
+							<label for="nome" class="mt-1">Nome</label><input type="text" class="form-control form-control-sm" placeholder="Digite o seu nome">
+
+							<label for="telefone" class="mt-1">Telefone</label><input type="text" class="form-control form-control-sm" placeholder="Digite o seu telefone">
+
+							<label for="email" class="mt-1">Email</label><input type="text" class="form-control form-control-sm" placeholder="Digite o seu email">
+
+							<label for="endereço" class="mt-1">Endereço</label><textarea placeholder="Ex: Luanda, Maianga, Prenda, Bairro Cassenda, Rua 5" class="form-control form-control-sm" rows="3"></textarea>
+
+						</form>
+					</div>
+				</div><!--Fim da Área do Cliente-->
+
+				<!--Inicio da Área do Serviço-->
+				<div class="col-sm-6">
+					<h5 class="bg-pink pt-1 pb-1 text-center font-weight-bold">Dados do Serviço</h5>
+					<div class="form-group">
+						<form>
+
+							<label>Seleciona o serviço que pretende adequerir</label>
+							<select class="form-control form-control-sm">
+								<option></option>
+								<option>Decoração de Festa</option>
+								<option>Decoração de Pedido</option>
+								<option>Decoração de Apresentação</option>
+								<option>Decoração de Casamento</option>
+								<option>Decoração de Quarto Romantico</option>
+								<option>Decoração de Chá de Bebé</option>
+								<option>Decoração de Chá de Panela</option>	
+							</select>
+
+							<label for="data">Data prevista para o serviço</label><input type="date" class="form-control form-control-sm">
+
+							<label for="descricao" class="mt-1">Descrição do serviço</label><textarea placeholder="Ex: Decoração de Noivado para 50 convidados no salão da Tia Maria na Maianga..." class="form-control form-control-sm" rows="3"></textarea>
+
+							<label for="pagamento">Forma de pagamento</label>
+							<ul class="list-inline text-center">
+								<li class="list-inline-item">
+									<a href="###" class="barra"><img src="img/cc-visa.svg" width="30" height="30"></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="###" class="barra"><img src="img/cc-paypal.svg" width="30" height="30"></a>
+								</li>
+								<li class="list-inline-item">
+									<a href="###" class="barra"><img src="img/cc-visa.svg" width="30" height="30"></a>
+								</li>
+							</ul>
+
+							<a class="btn btn-outline-info btn-sm btn-block text-dark font-weight-bold" onclick="comprar()" href="index.html">Adequerir</a>
+
+						</form>
+					</div>
+
+				</div><!--Inicio da Área do Serviço-->
+			</div><!--Fim da Row-->
+		</div><!--Fim do Container-->
+	</section>
+
+	<footer class="mt-3">
+		<div class="container bg-pink">
+			<div class="row">
+				<!--Inico da Área Copyright-->
+				<div class="col-sm-6">
+					<img src="img/map.png">
+					<p class="mb-1">BM-Eventos <span class="font-weight-bold">Online</span>: Loja online de prestação de serviços de decoração</p>
+					&copy; Copyright 2023<span class="mb-1"> Todos direitos reservado by: Grande Grupo</span>
+				</div><!--Fim da Área Copyright-->
+
+				<div class="col-sm-6 mt-5">
+				<!--Inicio da Área das Redes Sociais-->
+				<p>Contacta-nos:</p>
+					<div>
+						<a href="###" class="barra">
+							<img src="img/facebook.svg" class="mr-2" width="40" height="40">
+						</a>
+
+						<a href="###" class="barra">
+							<img src="img/google.svg" class="mr-2" width="40" height="40">
+						</a>
+
+						<a href="###" class="barra">
+							<img src="img/whatsapp.svg" class="mr-2" width="40" height="40">
+						</a>
+
+						<a href="###" class="barra">
+							<img src="img/github.svg" class="mr-2" width="40" height="40">
+						</a>
+
+					</div><!--Fim da Área das Redes Sociais-->
+					<p class="mt-4 mb-1">Luanda, Maianga, Bairro: Cassenda, Rua: 04</p>
+					<p>Design Responsivo criado por: <strong>Elmo Visconde</strong></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--Configurações Customizadas em JS-->
+	<script src="js/JS_BM.js"></script>
+</body>
+</html>

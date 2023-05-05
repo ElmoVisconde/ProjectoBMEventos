@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BM - Eventos Online - Serviços</title>
+	<!--Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!--Configurações Customizadas-->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+	<header>
+		<div class="container bg-pink pt-3 pb-1">
+			<nav class="navbar sticky-top navbar-expand-sm navbar-light bg-pink">
+				<!--Inicio do Logotipo-->
+				<a href="index.html" class="navbar-brand barra">
+					<span class="text-white">BM-Eventos </span><span class="text-dark">Online</span>
+				</a><!--Fim do Logotipo-->
+
+				<!--Inicio da barra de navegação-->
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="servico.html" class="nav-link active">Serviços</a>
+					</li>
+					<li class="nav-item">
+						<a href="sobre.html" class="nav-link">Sobre Nós</a>
+					</li>
+					<li class="nav-item">
+						<a href="contacto.html" class="nav-link">Ajuda</a>
+					</li>
+				</ul><!--Fim da barra de navegação-->
+			</nav>
+		</div>	
+	</header>
+
+	<section class="mt-3">
+		<div class="container"><!--Inicio do Container-->
+			<div class="row"><!--Inicio da Row-->
+				<!--Inicio da Área Esquerda-->
+				<div class="col-sm-3">
+					<!--Inicio da Área de navegação direita-->
+					<div id="navegacao-right">
+						<h5 class="bg-pink pt-1 pb-1 text-center font-weight-bold">Categorias</h5>
+
+						<button class="btn btn-block btn-sm text-center">
+							<a href="d-festa.html" class="barra h6">Decoração de Festa</a>
+						</button>
+
+						<button class="btn btn-block btn-sm text-center">
+							<a href="d-pedido.html" class="barra h6">Decoração de Pedido</a>
+						</button>
+
+						<button class="btn btn-block btn-sm text-center">
+							<a href="d-apresentacao.html" class="barra h6">Decoração de Noivado</a>
+						</button>
+
+						<button class="btn btn-block btn-sm text-center">
+							<a href="d-casamento.html" class="barra h6">Decoração de Casamento</a>
+						</button>
+
+						<button class="btn btn-block btn-sm text-center">
+							<a href="d-qromantico.html" class="barra h6">Decoração de Quarto Romantico</a>
+						</button>
+
+						<button class="btn btn-block btn-sm text-center activo">
+							<a href="d-cha-bebe.html" class="barra h6">Decoração de Chá de Bebé</a>
+						</button>
+
+						<button class="btn btn-block btn-sm text-center">
+							<a href="d-cha-panela.html" class="barra h6">Decoração de Chá de Panela</a>
+						</button>
+					</div><!--Fim da Área de navegação direita-->
+
+					<!--Inicio da Área Mantem-se Actualizado-->
+					<div class="form-group mt-2">
+						<h5 class="bg-pink pt-1 pb-1 text-center font-weight-bold">Mantem-se actualizado
+						</h5>
+						<form>
+							<input type="text" placeholder="Digite o seu WhatsApp" class="form-control form-control-sm mb-1 text-dark">
+							<p class="text-center mb-1">Ou</p>
+							<input type="text" placeholder="Digite o seu email" class="form-control form-control-sm mb-1 text-dark">
+							<button class="btn btn-block btn-sm btn-outline-dark text-center" onclick="enviar()">Enviar</button>
+						</form>
+					</div><!--Fim da Área Mantem-se Actualizado-->
+
+					<!--Inicio da Área Sugestões-->
+					<div class="form-group mt-2">
+						<h5 class="bg-pink pt-1 pb-1 text-center font-weight-bold">Sugestões
+						</h5>
+						<form>
+							<textarea placeholder="Deixa-nos a tua sugestão" class="form-control form-control-sm mb-1 text-dark" rows="4"></textarea>
+							<button class="btn btn-block btn-sm btn-outline-dark text-center" onclick="enviar()">Enviar</button>
+						</form>
+					</div><!--Fim da Área Sugestões-->
+
+				</div><!--Fim da Área Esquerda-->
+
+				<!--Inicio da Área Direita-->
+				<div class="col-sm-9" id="area-direita">
+					<h5 class="bg-pink pt-1 pb-1 text-center font-weight-bold">
+						Decoração de Chá de Bebé
+					</h5>
+					<p class="text-justify">A BM Eventos Online vem por esse meio a disponibilizar os mesmo serviços afim de facilitar a aquesição de serviços tipo (decoração de festa infantil, decoração de festa de adultos, decoração de pedidos ou apresentação, decoração de casamento e quarto romantico).</p>
+					<div class="row m-auto"><!--Inicio do Row da 1ª Divulgação-->
+
+						<!--Inicio da 1º Divalgação -->
+						<div class="col-sm-3">
+							<div class="card">
+								<img src="img/decoracao-cha-de-panela1.jpg" class=" card-img align-self-center">
+							</div>
+							<h6 class="font-weight-bold mt-1">D. de Chá de Panela</h6>
+							<h6 class="bg-pink text-white font-weight-bold mt-0">70.000,00</h6>
+							<button class="btn btn-block btn-sm text-center mb-1">
+								<a href="comprar.html" class="barra h6">Adequerir</a>
+							</button>
+						</div><!--Fim da 1º Divalgação -->
+
+						<!--Inicio da 2º Divalgação -->
+						<div class="col-sm-3">
+							<div class="card">
+								<img src="img/decoração-de-casamento.jpg" class=" card-img align-self-center">
+							</div>
+							<h6 class="font-weight-bold mt-1">D. de Casamento</h6>
+							<h6 class="bg-pink text-white font-weight-bold mt-0">200.000,00</h6>
+							<button class="btn btn-block btn-sm text-center mb-1">
+								<a href="comprar.html" class="barra h6">Adequerir</a>
+							</button>
+						</div><!--Fim da 2º Divalgação -->
+
+						<!--Inicio da 3º Divalgação -->
+						<div class="col-sm-3">
+							<div class="card">
+								<img src="img/images-6.jpg" class=" card-img align-self-center">
+							</div>
+							<h6 class="font-weight-bold mt-1">D. de Noivado</h6>
+							<h6 class="bg-pink text-white font-weight-bold mt-0">150.000,00</h6>
+							<button class="btn btn-block btn-sm text-center mb-1">
+								<a href="comprar.html" class="barra h6">Adequerir</a>
+							</button>
+						</div><!--Fim da 3º Divalgação -->
+
+						<!--Inicio da 4º Divalgação -->
+						<div class="col-sm-3">
+							<div class="card">
+								<img src="img/images-21.jpg" class="card-img align-self-center">
+							</div>
+							<h6 class="font-weight-bold mt-1">D. de Festa Infantil</h6>
+							<h6 class="bg-pink text-white font-weight-bold mt-0">50.000,00</h6>
+							<button class="btn btn-block btn-sm text-center mb-1">
+								<a href="comprar.html" class="barra h6">Adequerir</a>
+							</button>
+						</div><!--Fim da 4º Divalgação -->
+
+					</div><!--Fim do Row da 1ª Divulgação-->
+
+					<div class="row m-auto"><!--Inicio do Row da 2ª Divulgação-->
+
+						<!--Inicio da 5º Divalgação -->
+						<div class="col-sm-3">
+							<div class="card">
+								<img src="img/decoracao-de-carnaval.jpg" class="card-img align-self-center">
+							</div>
+							<h6 class="font-weight-bold mt-1">D. de Festa Adulta</h6>
+							<h6 class="bg-pink text-white font-weight-bold mt-0">50.000,00</h6>
+							<button class="btn btn-block btn-sm text-center mb-1">
+								<a href="comprar.html" class="barra h6">Adequerir</a>
+							</button>
+						</div><!--Fim da 5º Divalgação -->
+
+						<!--Inicio da 6º Divalgação -->
+						<div class="col-sm-3">
+							<div class="card">
+								<img src="img/decoracao-de-cha-de-bebe1.jpg" class="card-img align-self-center">
+							</div>
+							<h6 class="font-weight-bold mt-1">D. de Chá de Bébe</h6>
+							<h6 class="bg-pink text-white font-weight-bold mt-0">50.000,00</h6>
+							<button class="btn btn-block btn-sm text-center mb-1">
+								<a href="comprar.html" class="barra h6">Adequerir</a>
+							</button>
+						</div><!--Fim da 6º Divalgação -->
+
+						<!--Inicio da 7º Divalgação -->
+						<div class="col-sm-3">
+							<div class="card">
+								<img src="img/images-19.jpg" class="card-img align-self-center">
+							</div>
+							<h6 class="font-weight-bold mt-1">D. de Quarto</h6>
+							<h6 class="bg-pink text-white font-weight-bold mt-0">50.000,00</h6>
+							<button class="btn btn-block btn-sm text-center mb-1">
+								<a href="comprar.html" class="barra h6">Adequerir</a>
+							</button>
+						</div><!--Fim da 7º Divalgação -->
+
+						<!--Inicio da 8º Divalgação -->
+						<div class="col-sm-3">
+							<div class="card">
+								<img src="img/decoracao-de-casamento3.jpg" class="card-img align-self-center">
+							</div>
+							<h6 class="font-weight-bold mt-1">D. de Casamento</h6>
+							<h6 class="bg-pink text-white font-weight-bold mt-0">200.000,00</h6>
+							<button class="btn btn-block btn-sm text-center mb-1">
+								<a href="comprar.html" class="barra h6">Adequerir</a>
+							</button>
+						</div><!--Fim da 8º Divalgação -->
+
+					</div><!--Fim do Row da 2ª Divulgação-->
+
+				</div><!--Fim da Área Direita-->
+			</div><!--Fim da Row-->
+		</div><!--Fim do Container-->
+	</section>
+
+	<footer class="mt-3">
+		<div class="container bg-pink">
+			<div class="row">
+				<!--Inico da Área Copyright-->
+				<div class="col-sm-6">
+					<img src="img/map.png">
+					<p class="mb-1">BM-Eventos <span class="font-weight-bold">Online</span>: Loja online de prestação de serviços de decoração</p>
+					&copy; Copyright 2023<span class="mb-1"> Todos direitos reservado by: Grande Grupo</span>
+				</div><!--Fim da Área Copyright-->
+
+				<div class="col-sm-6 mt-5">
+				<!--Inicio da Área das Redes Sociais-->
+				<p>Contacta-nos:</p>
+					<div>
+						<a href="###" class="barra">
+							<img src="img/facebook.svg" class="mr-2" width="40" height="40">
+						</a>
+
+						<a href="###" class="barra">
+							<img src="img/google.svg" class="mr-2" width="40" height="40">
+						</a>
+
+						<a href="###" class="barra">
+							<img src="img/whatsapp.svg" class="mr-2" width="40" height="40">
+						</a>
+
+						<a href="###" class="barra">
+							<img src="img/github.svg" class="mr-2" width="40" height="40">
+						</a>
+
+					</div><!--Fim da Área das Redes Sociais-->
+					<p class="mt-4 mb-1">Luanda, Maianga, Bairro: Cassenda, Rua: 04</p>
+					<p>Design Responsivo criado por: <strong>Elmo Visconde</strong></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--Configurações Customizadas em JS-->
+	<script src="js/JS_BM.js"></script>
+
+</body>
+</html>
