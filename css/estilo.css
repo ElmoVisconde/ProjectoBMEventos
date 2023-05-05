@@ -1,0 +1,124 @@
+/*Configurações padrões*/
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f4f4f4;
+}
+
+.bg-pink{
+	background: pink !important;
+}
+
+.text-pink{
+	color: pink;
+}
+
+.border-pink{
+	border: 1px solid pink;
+}
+
+a.barra{
+	text-decoration: none;
+}
+
+.activo{
+	background: pink;
+	border: 1px solid pink;
+	color: white;
+}
+
+/*Configurações da Página Home (Área de Navegação Right)*/
+
+#navegacao-right button{
+	border: 1px solid pink;
+}
+
+#navegacao-right button:hover{
+	background: pink;
+	border: 1px solid black;
+	color: white;
+}
+
+#navegacao-right a:hover{
+	color: white;
+}
+
+/*Configurações da Página Home (Área Direita)*/
+
+#area-direita img{
+	width: 200px;
+	height: 170px;
+	border: 2px solid pink;
+}
+
+#area-direita h6{
+	text-align: center;
+}
+
+#area-direita button{
+	border: 1px solid pink;
+}
+
+#area-direita button:hover{
+	background: pink;
+	border: 1px solid black;
+	color: white;
+}
+
+#area-direita a:hover{
+	color: white;
+}
+
+/*Configurações da Página Home (Área Recomendações)*/
+
+#area-recomendacaoes img{
+	width: 185px;
+	height: 170px;
+	border: 2px solid pink;
+}
+
+#area-recomendacaoes h6{
+	text-align: center;
+}
+
+#area-recomendacaoes button{
+	border: 1px solid pink;
+}
+
+#area-recomendacaoes button:hover{
+	background: pink;
+	border: 1px solid black;
+	color: white;
+}
+
+#area-recomendacaoes a:hover{
+	color: white;
+}
+
+/*Configurações da Página Serviços (Área Servico)*/
+
+#area-servico img{
+	width: 253px;
+	height: 170px;
+	border: 2px solid pink;
+}
+
+#area-servico h6{
+	text-align: center;
+}
+
+#area-servico button{
+	border: 1px solid pink;
+}
+
+#area-servico button:hover{
+	background: pink;
+	border: 1px solid black;
+	color: white;
+}
+
+#area-servico a:hover{
+	color: white;
+}
+
+
